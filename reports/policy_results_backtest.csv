@@ -1,0 +1,7 @@
+fold,policy,setting,total_cost,overage_cost,lost_margin,fill_rate,avg_stock_value
+backtest_265,quantile_newsvendor_lgb,cost-based CR,7626.8,5287.7,2339.1,0.96332,61790
+backtest_265,normal_newsvendor_tsb,cost-based CR,8224.9,5147,3077.9,0.95392,60717
+backtest_265,days_of_cover_2.0w_ma4,default,11477,8830.4,2646.3,0.96443,77771
+backtest_269,quantile_newsvendor_lgb,cost-based CR,7198.2,5197.8,2000.4,0.97089,63168
+backtest_269,normal_newsvendor_tsb,cost-based CR,7905.3,4897.1,3008.2,0.95804,61208
+backtest_269,days_of_cover_2.0w_ma4,default,11241,9187.3,2053.4,0.9736,81334

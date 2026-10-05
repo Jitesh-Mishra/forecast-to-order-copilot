@@ -1,0 +1,5 @@
+fold,budget_frac,lp_total_cost,prop_total_cost,lp_fill,prop_fill,lp_stock_value,prop_stock_value,budget_avg,shadow_price_avg,lp_vs_prop_pct
+test,0.7,12181,13151,0.86368,0.84925,45544,45338,45124,0.12812,-7.3805
+test,0.8,9408.1,9818.4,0.9098,0.90575,52009,51905,51570,0.063241,-4.1797
+test,0.9,8364.9,8258,0.93929,0.94114,58474,58415,58016,0.016267,1.294
+test,1,7929.2,7929.2,0.96095,0.96095,64898,64898,64462,0,0

@@ -1,0 +1,22 @@
+claims:
+  - claim: "1,437 Walmart FOODS SKUs (M5, store CA_1), 4-week locked test + 2 backtests"
+    evidence: [reports/meta_test.json, reports/test_runs.json, reports/meta_backtest.json]
+    verified: true
+  - claim: "LightGBM quantile MASE 0.988, -6.2% vs best baseline (4-week mean 1.053), -5.9% vs TSB"
+    evidence: [reports/forecast_accuracy_test.csv]
+    verified: true
+  - claim: "P90 coverage 87.2%"
+    evidence: [reports/forecast_accuracy_test.csv]
+    verified: true
+  - claim: "Quantile newsvendor cuts simulated cost 25.7% vs days-of-cover and 12.1% vs normal newsvendor at matched 95% fill; 15.8% less inventory $"
+    evidence: [reports/matched_fill_test.csv, reports/frontier_test.csv]
+    verified: true
+  - claim: "Budget LP -7.4% at 70%, -4.2% at 80%, +1.3% at 90% vs proportional; shadow price 0.128 / 0.063 / 0.016"
+    evidence: [reports/budget_test.csv]
+    verified: true
+  - claim: "Wins in 9/9 margin x spoilage scenarios"
+    evidence: [reports/sensitivity_test.csv]
+    verified: true
+  - claim: "Groq copilot / DuckDB / Streamlit"
+    evidence: []
+    verified: false   # not built yet (D6+)

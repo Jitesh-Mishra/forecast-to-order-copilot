@@ -1,0 +1,13 @@
+fold,policy,fill_rate,total_cost,avg_stock_value
+test,days_of_cover_ma4,0.9,10528,53201
+test,days_of_cover_ma4,0.93,9993.5,62079
+test,days_of_cover_ma4,0.95,10614,72308
+test,days_of_cover_ma4,0.97,13840,94650
+test,normal_newsvendor_tsb,0.9,10579,53233
+test,normal_newsvendor_tsb,0.93,9387.6,59450
+test,normal_newsvendor_tsb,0.95,8973.5,65380
+test,normal_newsvendor_tsb,0.97,9553.5,75683
+test,quantile_newsvendor_lgb,0.9,9785.3,50834
+test,quantile_newsvendor_lgb,0.93,8461.7,55968
+test,quantile_newsvendor_lgb,0.95,7891.4,60888
+test,quantile_newsvendor_lgb,0.97,8161.7,69509

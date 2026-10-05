@@ -1,0 +1,18 @@
+# All dollar figures in this project are SIMULATED under these assumptions.
+# M5 has no costs, margins, lead times or inventory.
+costs:
+  gross_margin: 0.30          # lost-sale cost = margin x shelf price (FOODS grocery assumption)
+  annual_holding_rate: 0.25   # capital + storage, as a fraction of unit cost per year
+  weekly_spoilage_rate: 0.05  # FOODS: fraction of unit cost lost per week an excess unit sits
+policy:
+  lead_time_weeks: 1          # order decided at end of week t-1 with data through t-1, arrives start of week t
+  days_of_cover_weeks: 2.0    # practitioner baseline: order up to N weeks of recent average sales
+  quantiles: [0.3, 0.5, 0.7, 0.8, 0.9, 0.95, 0.98]
+budget:
+  levels: [0.7, 0.8, 0.9]     # fraction of the unconstrained optimal stock value
+split:
+  week_start_day: 3           # weeks are d_3..d_9, ...; the last 4 weeks are exactly d_1914..d_1941
+  backtest_origins: [265, 269]  # first test week of each fold (d_1858 and d_1886)
+  test_origin: 273              # d_1914..d_1941, evaluated once
+  horizon: 4
+seed: 42

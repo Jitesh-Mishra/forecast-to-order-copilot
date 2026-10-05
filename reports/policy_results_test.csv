@@ -1,0 +1,4 @@
+fold,policy,setting,total_cost,overage_cost,lost_margin,fill_rate,avg_stock_value
+test,quantile_newsvendor_lgb,cost-based CR,7919,5049.8,2869.2,0.96008,64713
+test,normal_newsvendor_tsb,cost-based CR,9061.8,4746.1,4315.7,0.94141,62484
+test,days_of_cover_2.0w_ma4,default,12240,9362.9,2877.3,0.96257,84382

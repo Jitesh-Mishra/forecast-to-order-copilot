@@ -1,0 +1,6 @@
+date,commit,folds,config,lgb_mase_mean,best_baseline,best_baseline_mase,qnv_cost,doc_cost,notes
+2026-10-05,uncommitted,backtest_265,scaled_target=True,0.9492,ma4,0.9841,7876,11477,
+2026-10-05,uncommitted,backtest_269,scaled_target=True,0.8854,ma4,0.9283,7334,11241,
+2026-10-05,uncommitted,backtest_265,scaled_target=False,0.9377,ma4,0.9841,7627,11477,
+2026-10-05,uncommitted,backtest_269,scaled_target=False,0.8793,ma4,0.9283,7198,11241,
+2026-10-05,uncommitted,test,scaled_target=False,0.9883,tsb,1.0502,7919,12240,
